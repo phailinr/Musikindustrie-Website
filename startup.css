@@ -1,0 +1,114 @@
+
+body{
+    background-color: white;
+    background-image: url("background.jpg");
+    color: white;
+    font-family: sans-serif;
+    font-variant: small-caps;
+    margin: 0;
+    padding: 0;
+    padding-top: 30px;
+    
+}
+
+header, main, nav{
+    margin-left: 3.5%;
+    margin-right: 3.5%;
+}
+
+header,footer{
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#logo{
+    width: 30px;
+
+}
+
+main{
+    line-height: 150%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 3.5%;
+    margin-right: 3.5%;
+}
+.decimal{
+    list-style-type: decimal;
+}
+p{
+    
+    margin-top: 0;
+    margin-bottom: 0; 
+}
+footer{
+    background-color: black;
+    border: 5px, solid, maroon;
+    color: maroon;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    
+    padding-top:10px;
+    display: flex;
+    flex-direction: column;
+    
+}
+h1{
+    font-size: 50px;
+}
+a{
+    text-decoration: underline;
+    color: inherit;
+}
+a:hover{
+    color:  rgb(122, 171, 219);
+}
+#nav{
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #EFF1F0;
+    padding: 0;
+    margin-left: 3.5%;
+    margin-right: 3.5%;
+}
+#nav li{
+    float: left;
+}
+#nav li a{
+    display: block;
+    color: #3C7C35;
+    text-decoration: none;
+    text-align: center;
+    padding: 25px 60px;
+    font-size: large;
+}
+
+#nav li a:hover:not(.active){
+    background-color: #d6d6d6;
+}
+#nav li a:active:not(.active){
+    background-color:#cdd1cf;
+}
+#basket{
+    display: flex;
+    align-items: center;
+}
+#basketimg{
+    width: 17px;
+}
+#o{
+    width: 50px;
+}
+.links{
+    padding: 14px 16px;
+}
+div{
+    font-size: small;
+}
